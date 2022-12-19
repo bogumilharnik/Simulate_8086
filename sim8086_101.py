@@ -10,7 +10,7 @@ dx = int(input("Podaj liczbę dla rejestru DX: "))
 
 print("wybierz operację: MOV, XCHG lub Q aby wyjść")
 
-wyjscie = str.upper("Q")
+wyjscie = str.upper("q")
 
 while wyjscie != False:
 
@@ -289,7 +289,7 @@ while wyjscie != False:
             print(cx)
             print(dx)
 
-    if operacja == "Q":
+    if operacja == wyjscie:
         break
 
 print("Zakończenie symulatora")
